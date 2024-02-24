@@ -1,0 +1,47 @@
+---
+import { Image } from "astro:assets";
+import { Layout } from "my-theme/layouts";
+import { Hero } from "my-theme/components";
+import { houston } from "my-theme/assets";
+import config from "my-theme/config";
+---
+
+<Layout>
+  <Hero title={config.title} desc={config.description} />
+  <div class="houston">
+    <Image src={houston} alt="" />
+  </div>
+</Layout>
+
+<style>
+  .houston {
+    animation: hithere 8s ease-in-out infinite;
+  }
+  
+  @keyframes hithere {
+    0% {
+      transform: rotate(-5deg) scale(1);
+    }
+    15% {
+      transform: rotate(-5deg) scale(1);
+    }
+    20% {
+      transform: rotate(10deg) scale(1.15);
+    }
+    25% {
+      transform: rotate(-20deg) scale(1.15);
+    }
+    30% {
+      transform: rotate(10deg) scale(1.15);
+    }
+    35% {
+      transform: rotate(-20deg) scale(1.15);
+    }
+    40% {
+      transform: rotate(-5deg) scale(1);
+    }
+    100% {
+      transform: rotate(-5deg) scale(1);
+    }
+  }
+</style>

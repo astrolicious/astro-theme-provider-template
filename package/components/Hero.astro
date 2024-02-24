@@ -1,0 +1,27 @@
+---
+interface Props {
+  title: string;
+  desc?: string | undefined;
+}
+
+const { title, desc } = Astro.props;
+---
+
+<div>
+  <h1>{title}</h1>
+  <p>{desc || "Where did the description go?"}</p>
+</div>
+
+<style>
+  div {
+    max-width: 75ch;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+  }
+
+  h1 {
+    max-width: 15ch;
+    font-size: 3.5rem;
+  }
+</style>

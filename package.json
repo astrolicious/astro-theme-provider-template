@@ -1,0 +1,9 @@
+{
+  "name": "theme-root",
+  "license": "MIT",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "astro": "^4.4.4"
+  }
+}
