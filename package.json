@@ -3,9 +3,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-		"playground:dev": "pnpm --filter playground dev"
-	},
+    "playground:dev": "pnpm --filter playground dev"
+  },
   "devDependencies": {
-    "astro": "^4.4.4"
+    "astro": "^4.5.8"
   }
 }
