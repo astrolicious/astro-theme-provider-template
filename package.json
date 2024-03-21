@@ -2,7 +2,9 @@
   "name": "theme-root",
   "license": "MIT",
   "private": true,
-  "scripts": {},
+  "scripts": {
+		"playground:dev": "pnpm --filter playground dev"
+	},
   "devDependencies": {
     "astro": "^4.4.4"
   }
