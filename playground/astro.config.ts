@@ -8,6 +8,12 @@ export default defineConfig({
 				title: "My Awesome Theme",
 				description: "My awesome theme is currently under construction!",
 			},
+			pages: {
+
+			},
+			overrides: {
+				
+			}
 		}),
 	],
 });
