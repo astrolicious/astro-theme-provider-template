@@ -9,9 +9,9 @@ This is a template repo for creating theme integrations for Astro with [`astro-t
 > **Important**: This repo uses ***pnpm*** workspaces, you must use ***pnpm*** as your package manager
 
 ```
-git clone https://github.com/BryceRussell/astro-theme-template.git mycooltheme
-cd mycooltheme
-pnpm i
+git clone https://github.com/BryceRussell/astro-theme-template.git my-theme
+cd my-theme
+pnpm install
 ```
    
 2. **Start the playground**:
@@ -19,8 +19,7 @@ pnpm i
 When authoring a theme, the playground always has to be running in order to generate the types for your theme
 
 ```
-cd playground
-pnpm dev
+pnpm playground:dev
 ```
 
 3. **Change the theme name**: The default name inside this repo is `my-theme`, it is reccomended to use find and replace to replace all occurences of `my-theme` inside the repo with the name of your own theme. If you can't find and replace, you can manually change the name inside the following files:
