@@ -6,6 +6,6 @@
     "playground:dev": "pnpm --filter playground dev"
   },
   "devDependencies": {
-    "astro": "^4.8.3"
+    "astro": "^4.11.3"
   }
 }
