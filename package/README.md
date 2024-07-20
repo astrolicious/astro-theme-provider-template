@@ -7,7 +7,7 @@ This is my awesome Astro theme created using [`astro-theme-provider`](https://gi
 1. Create an empty Astro project:
 
 ```sh
-pnpm create astro@latest my-website --template empty -y
+pnpm create astro@latest my-website --template minimal -y
 ```
 
 2. Add the theme to your project:
