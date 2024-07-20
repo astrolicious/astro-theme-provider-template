@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.8.3",
+    "astro": "^4.12.2",
     "my-theme": "workspace:^"
   }
 }
