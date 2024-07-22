@@ -15,8 +15,8 @@ importers:
   package:
     dependencies:
       astro-theme-provider:
-        specifier: ^0.6.0
-        version: 0.6.0(astro@4.12.2)
+        specifier: ^0.6.1
+        version: 0.6.1(astro@4.12.2)
     devDependencies:
       astro:
         specifier: ^4.12.2
@@ -647,8 +647,8 @@ packages:
     peerDependencies:
       astro: ^4.4.0
 
-  astro-theme-provider@0.6.0:
-    resolution: {integrity: sha512-+vFqHqc7QexE3P4cPZ1BhCO5MbB28Gg9Ej6U6vkctCm+kQgcrjIFTP650VdezD20l+CXhmmPyNa0EKEk3Uvhyg==}
+  astro-theme-provider@0.6.1:
+    resolution: {integrity: sha512-6cFbq7G5OlhVQqCdhLO7PVp17SMbparSqvr9JJ+HvfTacfTJ+wEIBMujE0/0PGzDkvSw0vi2ETHERQQpH3yk9g==}
     peerDependencies:
       '@astrojs/db': '>=0.8.0'
       astro: '>=3'
@@ -1265,10 +1265,6 @@ packages:
 
   micromark@4.0.0:
     resolution: {integrity: sha512-o/sd0nMof8kYff+TqcDx3VSrgBTcZpSvYcAHIfHhv5VAuNmisCxjhx6YmxS8PFEpb9z5WKWKPdzf0jM23ro3RQ==}
-
-  micromatch@4.0.5:
-    resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}
-    engines: {node: '>=8.6'}
 
   micromatch@4.0.7:
     resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
@@ -2282,7 +2278,7 @@ snapshots:
     dependencies:
       astro: 4.12.2
 
-  astro-theme-provider@0.6.0(astro@4.12.2):
+  astro-theme-provider@0.6.1(astro@4.12.2):
     dependencies:
       astro: 4.12.2
       astro-integration-kit: 0.14.0(astro@4.12.2)
@@ -2624,7 +2620,7 @@ snapshots:
 
   find-yarn-workspace-root2@1.2.16:
     dependencies:
-      micromatch: 4.0.5
+      micromatch: 4.0.7
       pkg-dir: 4.2.0
 
   flattie@1.1.1: {}
@@ -3158,11 +3154,6 @@ snapshots:
       micromark-util-types: 2.0.0
     transitivePeerDependencies:
       - supports-color
-
-  micromatch@4.0.5:
-    dependencies:
-      braces: 3.0.2
-      picomatch: 2.3.1
 
   micromatch@4.0.7:
     dependencies:
