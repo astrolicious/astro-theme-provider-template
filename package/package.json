@@ -13,6 +13,6 @@
     "astro": "^4.12.2"
   },
   "dependencies": {
-    "astro-theme-provider": "^0.6.0"
+    "astro-theme-provider": "^0.6.1"
   }
 }
