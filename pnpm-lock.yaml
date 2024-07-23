@@ -15,8 +15,8 @@ importers:
   package:
     dependencies:
       astro-theme-provider:
-        specifier: ^0.6.0
-        version: 0.6.0(astro@4.12.2)
+        specifier: ^0.6.1
+        version: 0.6.1(astro@4.12.2)
     devDependencies:
       astro:
         specifier: ^4.12.2
@@ -647,8 +647,8 @@ packages:
     peerDependencies:
       astro: ^4.4.0
 
-  astro-theme-provider@0.6.0:
-    resolution: {integrity: sha512-+vFqHqc7QexE3P4cPZ1BhCO5MbB28Gg9Ej6U6vkctCm+kQgcrjIFTP650VdezD20l+CXhmmPyNa0EKEk3Uvhyg==}
+  astro-theme-provider@0.6.1:
+    resolution: {integrity: sha512-6cFbq7G5OlhVQqCdhLO7PVp17SMbparSqvr9JJ+HvfTacfTJ+wEIBMujE0/0PGzDkvSw0vi2ETHERQQpH3yk9g==}
     peerDependencies:
       '@astrojs/db': '>=0.8.0'
       astro: '>=3'
@@ -2282,7 +2282,7 @@ snapshots:
     dependencies:
       astro: 4.12.2
 
-  astro-theme-provider@0.6.0(astro@4.12.2):
+  astro-theme-provider@0.6.1(astro@4.12.2):
     dependencies:
       astro: 4.12.2
       astro-integration-kit: 0.14.0(astro@4.12.2)
