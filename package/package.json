@@ -10,7 +10,7 @@
   ],
   "scripts": {},
   "devDependencies": {
-    "astro": "^4.13.1"
+    "astro": "^4.13.3"
   },
   "dependencies": {
     "astro-theme-provider": "^0.6.1"
