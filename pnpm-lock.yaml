@@ -9,24 +9,24 @@ importers:
   .:
     devDependencies:
       astro:
-        specifier: ^4.13.1
-        version: 4.13.1
+        specifier: ^4.13.3
+        version: 4.13.3
 
   package:
     dependencies:
       astro-theme-provider:
         specifier: ^0.6.1
-        version: 0.6.1(astro@4.13.1)
+        version: 0.6.1(astro@4.13.3)
     devDependencies:
       astro:
-        specifier: ^4.13.1
-        version: 4.13.1
+        specifier: ^4.13.3
+        version: 4.13.3
 
   playground:
     dependencies:
       astro:
-        specifier: ^4.13.1
-        version: 4.13.1
+        specifier: ^4.13.3
+        version: 4.13.3
       my-theme:
         specifier: workspace:^
         version: link:../package
@@ -619,8 +619,8 @@ packages:
       '@astrojs/db':
         optional: true
 
-  astro@4.13.1:
-    resolution: {integrity: sha512-VnMjAc+ykFsIVjgbu9Mt/EA1fMIcPMXbU89h3ATwGOzSIKDsQH72bDgfJkWiwk6u0OE90GeP5EPhAT28Twf9oA==}
+  astro@4.13.3:
+    resolution: {integrity: sha512-MyhmM0v5sphiVwxAm5jjKxWeuPZijWPJ8Ajdign9QzEmLWSH8vUYIJWx/dWRQ6vF1I0jXrksoj3wtw5nzXt9nw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2146,31 +2146,31 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  astro-integration-kit@0.14.0(astro@4.13.1):
+  astro-integration-kit@0.14.0(astro@4.13.3):
     dependencies:
-      astro: 4.13.1
+      astro: 4.13.3
       pathe: 1.1.2
       recast: 0.23.9
 
-  astro-pages@0.3.0(astro@4.13.1):
+  astro-pages@0.3.0(astro@4.13.3):
     dependencies:
-      astro: 4.13.1
+      astro: 4.13.3
       fast-glob: 3.3.2
 
-  astro-public@0.1.0(astro@4.13.1):
+  astro-public@0.1.0(astro@4.13.3):
     dependencies:
-      astro: 4.13.1
+      astro: 4.13.3
 
-  astro-theme-provider@0.6.1(astro@4.13.1):
+  astro-theme-provider@0.6.1(astro@4.13.3):
     dependencies:
-      astro: 4.13.1
-      astro-integration-kit: 0.14.0(astro@4.13.1)
-      astro-pages: 0.3.0(astro@4.13.1)
-      astro-public: 0.1.0(astro@4.13.1)
+      astro: 4.13.3
+      astro-integration-kit: 0.14.0(astro@4.13.3)
+      astro-pages: 0.3.0(astro@4.13.3)
+      astro-public: 0.1.0(astro@4.13.3)
       callsites: 4.2.0
       fast-glob: 3.3.2
 
-  astro@4.13.1:
+  astro@4.13.3:
     dependencies:
       '@astrojs/compiler': 2.10.2
       '@astrojs/internal-helpers': 0.4.1
